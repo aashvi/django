@@ -1,12 +1,12 @@
 from django.shortcuts import render, render_to_response, RequestContext, HttpResponseRedirect 
 
 from .forms import SignUpForm, CustomerForm
-
-
+from django.http import HttpResponse 
 from django.contrib import messages
 
 # Create your views here.
 def home(request):
+
 	form = CustomerForm(request.POST or None)
 
 	if form.is_valid():
@@ -16,7 +16,16 @@ def home(request):
 		return HttpResponseRedirect('/thank-you/')
 	return render_to_response("home.html",
 							 locals(), context_instance=RequestContext(request))
+	if request.user.is_authenticated():
 
+		context = { "first_name": "Ayush"}
+
+	else:
+		context = { "first_name": "Who"}
+
+	return render(request, "home.html",
+								 context)
+	
 
 def thankyou(request):
 	return render_to_response("thankyou.html",
@@ -32,3 +41,7 @@ def aboutus(request):
 def signup(request):
 	return render_to_response("signup.html",
 							 locals(), context_instance=RequestContext(request))
+
+def cards(request):
+	return render_to_response("cards.html",
+						 locals(), context_instance=RequestContext(request))
