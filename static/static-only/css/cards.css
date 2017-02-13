@@ -1,0 +1,704 @@
+
+ol.dribbbles {
+    max-width: 2000px;
+    margin: 0 auto
+}
+body.with-scrollbar ol.dribbbles {
+    max-width: 2020px
+}
+body.grid-large ol.dribbbles {
+    max-width: 2700px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row
+}
+@media screen and (min-width: 2311px) and (max-width: 2279px) {
+    body.grid-large ol.dribbbles {
+        max-width: 2250px
+    }
+}
+@media screen and (min-width: 1861px) and (max-width: 1909px) {
+    body.grid-large ol.dribbbles {
+        max-width: 1800px
+    }
+}
+@media screen and (min-width: 1411px) and (max-width: 1539px) {
+    body.grid-large ol.dribbbles {
+        max-width: 1350px
+    }
+}
+@media screen and (min-width: 961px) and (max-width: 1169px) {
+    body.grid-large ol.dribbbles {
+        max-width: 900px
+    }
+}
+@media screen and (max-width: 767px) {
+    body.grid-large ol.dribbbles {
+        max-width: 420px
+    }
+}
+body.scrollbar-unknown ol.dribbbles {
+    display: none
+}
+body.with-scrollbar ol.dribbbles,
+body.no-scrollbar ol.dribbbles {
+    display: block
+}
+@media screen and (max-width: 2059px) {
+    body.grid-small ol.dribbbles {
+        max-width: 1750px
+    }
+}
+@media screen and (max-width: 2079px) {
+    body.grid-small.with-scrollbar ol.dribbbles {
+        max-width: 1750px
+    }
+}
+@media screen and (max-width: 1809px) {
+    body.grid-small ol.dribbbles {
+        max-width: 1500px
+    }
+}
+@media screen and (max-width: 1829px) {
+    body.grid-small.with-scrollbar ol.dribbbles {
+        max-width: 1500px
+    }
+}
+@media screen and (max-width: 1559px) {
+    body.grid-small ol.dribbbles {
+        max-width: 1250px
+    }
+}
+@media screen and (max-width: 1579px) {
+    body.grid-small.with-scrollbar ol.dribbbles {
+        max-width: 1250px
+    }
+}
+@media screen and (max-width: 1309px) {
+    body.grid-small ol.dribbbles {
+        max-width: 1000px
+    }
+}
+@media screen and (max-width: 1329px) {
+    body.grid-small.with-scrollbar ol.dribbbles {
+        max-width: 1000px
+    }
+}
+@media screen and (max-width: 1059px) {
+    body.grid-small ol.dribbbles {
+        max-width: 750px
+    }
+}
+@media screen and (max-width: 1079px) {
+    body.grid-small.with-scrollbar ol.dribbbles {
+        max-width: 750px
+    }
+}
+@media screen and (max-width: 809px) {
+    body.grid-small ol.dribbbles {
+        max-width: 500px
+    }
+}
+@media screen and (max-width: 829px) {
+    body.grid-small.with-scrollbar ol.dribbbles {
+        max-width: 500px
+    }
+}
+@media only screen and (width: 1024px) and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+    body.grid-small ol.dribbbles {
+        max-width: 100%
+    }
+    body.grid-small ol.dribbbles li.group,
+    body.grid-small ol.dribbbles li.constrained-content,
+    body.grid-small ol.dribbbles li.constrained-content-alt,
+    body.grid-small ol.dribbbles li.constrained-content-super,
+    body.grid-small ol.dribbbles li.player-list-with-filters {
+        margin-left: 10px;
+        margin-right: 10px
+    }
+}
+@media only screen and (width: 768px) and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    body.grid-small ol.dribbbles {
+        max-width: 100%
+    }
+    body.grid-small ol.dribbbles li.group,
+    body.grid-small ol.dribbbles li.constrained-content,
+    body.grid-small ol.dribbbles li.constrained-content-alt,
+    body.grid-small ol.dribbbles li.constrained-content-super,
+    body.grid-small ol.dribbbles li.player-list-with-filters {
+        margin-left: 13px;
+        margin-right: 13px
+    }
+}
+ol.dribbbles li.group,
+ol.dribbbles li.constrained-content,
+ol.dribbbles li.constrained-content-alt,
+ol.dribbbles li.constrained-content-super,
+ol.dribbbles li.player-list-with-filters {
+    position: relative;
+    width: 220px;
+    float: left;
+    padding: 0;
+    margin: 0 15px 30px 15px
+}
+body.grid-large ol.dribbbles li.group,
+body.grid-large ol.dribbbles li.constrained-content,
+body.grid-large ol.dribbbles li.constrained-content-alt,
+body.grid-large ol.dribbbles li.constrained-content-super,
+body.grid-large ol.dribbbles li.player-list-with-filters {
+    width: calc(16.666% - 30px)
+}
+@media screen and (max-width: 2279px) {
+    body.grid-large ol.dribbbles li.group,
+    body.grid-large ol.dribbbles li.constrained-content,
+    body.grid-large ol.dribbbles li.constrained-content-alt,
+    body.grid-large ol.dribbbles li.constrained-content-super,
+    body.grid-large ol.dribbbles li.player-list-with-filters {
+        width: calc(20% - 30px)
+    }
+}
+@media screen and (max-width: 1909px) {
+    body.grid-large ol.dribbbles li.group,
+    body.grid-large ol.dribbbles li.constrained-content,
+    body.grid-large ol.dribbbles li.constrained-content-alt,
+    body.grid-large ol.dribbbles li.constrained-content-super,
+    body.grid-large ol.dribbbles li.player-list-with-filters {
+        width: calc(25% - 30px)
+    }
+}
+@media screen and (max-width: 1539px) {
+    body.grid-large ol.dribbbles li.group,
+    body.grid-large ol.dribbbles li.constrained-content,
+    body.grid-large ol.dribbbles li.constrained-content-alt,
+    body.grid-large ol.dribbbles li.constrained-content-super,
+    body.grid-large ol.dribbbles li.player-list-with-filters {
+        width: calc(33.333% - 30px)
+    }
+}
+@media screen and (max-width: 2000px) {
+    body.grid-large ol.dribbbles li.group,
+    body.grid-large ol.dribbbles li.constrained-content,
+    body.grid-large ol.dribbbles li.constrained-content-alt,
+    body.grid-large ol.dribbbles li.constrained-content-super,
+    body.grid-large ol.dribbbles li.player-list-with-filters {
+        width: calc(50% - 30px)
+    }
+}
+@media screen and (max-width: 2000px) {
+    body.grid-large ol.dribbbles li.group,
+    body.grid-large ol.dribbbles li.constrained-content,
+    body.grid-large ol.dribbbles li.constrained-content-alt,
+    body.grid-large ol.dribbbles li.constrained-content-super,
+    body.grid-large ol.dribbbles li.player-list-with-filters {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0
+    }
+}
+@media screen and (min-width: 2000px) {
+    body#profile.grid-large ol.dribbbles li.group,
+    body#profile.grid-large ol.dribbbles li.constrained-content,
+    body#profile.grid-large ol.dribbbles li.constrained-content-alt,
+    body#profile.grid-large ol.dribbbles li.constrained-content-super,
+    body#profile.grid-large ol.dribbbles li.player-list-with-filters,
+    body#user-profile.grid-large ol.dribbbles li.group,
+    body#user-profile.grid-large ol.dribbbles li.constrained-content,
+    body#user-profile.grid-large ol.dribbbles li.constrained-content-alt,
+    body#user-profile.grid-large ol.dribbbles li.constrained-content-super,
+    body#user-profile.grid-large ol.dribbbles li.player-list-with-filters {
+        width: calc(25% - 30px)
+    }
+}
+@media screen and (min-width: 2000px) and (max-width: 3000px) {
+    body#profile.grid-large ol.dribbbles li.group,
+    body#profile.grid-large ol.dribbbles li.constrained-content,
+    body#profile.grid-large ol.dribbbles li.constrained-content-alt,
+    body#profile.grid-large ol.dribbbles li.constrained-content-super,
+    body#profile.grid-large ol.dribbbles li.player-list-with-filters,
+    body#user-profile.grid-large ol.dribbbles li.group,
+    body#user-profile.grid-large ol.dribbbles li.constrained-content,
+    body#user-profile.grid-large ol.dribbbles li.constrained-content-alt,
+    body#user-profile.grid-large ol.dribbbles li.constrained-content-super,
+    body#user-profile.grid-large ol.dribbbles li.player-list-with-filters {
+        width: calc(33.333% - 30px)
+    }
+}
+@media screen and (min-width: 2000px) and (max-width: 3000px) {
+    body#profile.grid-large ol.dribbbles li.group,
+    body#profile.grid-large ol.dribbbles li.constrained-content,
+    body#profile.grid-large ol.dribbbles li.constrained-content-alt,
+    body#profile.grid-large ol.dribbbles li.constrained-content-super,
+    body#profile.grid-large ol.dribbbles li.player-list-with-filters,
+    body#user-profile.grid-large ol.dribbbles li.group,
+    body#user-profile.grid-large ol.dribbbles li.constrained-content,
+    body#user-profile.grid-large ol.dribbbles li.constrained-content-alt,
+    body#user-profile.grid-large ol.dribbbles li.constrained-content-super,
+    body#user-profile.grid-large ol.dribbbles li.player-list-with-filters {
+        width: calc(50% - 30px)
+    }
+}
+ol.dribbbles li.group h2,
+ol.dribbbles li.constrained-content h2,
+ol.dribbbles li.constrained-content-alt h2,
+ol.dribbbles li.constrained-content-super h2,
+ol.dribbbles li.player-list-with-filters h2 {
+    max-height: 16px;
+    margin: 10px 0 0 0;
+    padding: 0 0 0 10px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #999;
+    vertical-align: middle
+}
+ol.dribbbles li.group h2 a,
+ol.dribbbles li.constrained-content h2 a,
+ol.dribbbles li.constrained-content-alt h2 a,
+ol.dribbbles li.constrained-content-super h2 a,
+ol.dribbbles li.player-list-with-filters h2 a {
+    font-weight: 500
+}
+ol.dribbbles li.group h2 a img,
+ol.dribbbles li.constrained-content h2 a img,
+ol.dribbbles li.constrained-content-alt h2 a img,
+ol.dribbbles li.constrained-content-super h2 a img,
+ol.dribbbles li.player-list-with-filters h2 a img {
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin: 1px 5px 0 0;
+    border-radius: 50%
+}
+ol.dribbbles li.group h2 a:hover img,
+ol.dribbbles li.constrained-content h2 a:hover img,
+ol.dribbbles li.constrained-content-alt h2 a:hover img,
+ol.dribbbles li.constrained-content-super h2 a:hover img,
+ol.dribbbles li.player-list-with-filters h2 a:hover img {
+    opacity: .8
+}
+ol.dribbbles li.group h2 span.badge,
+ol.dribbbles li.constrained-content h2 span.badge,
+ol.dribbbles li.constrained-content-alt h2 span.badge,
+ol.dribbbles li.constrained-content-super h2 span.badge,
+ol.dribbbles li.player-list-with-filters h2 span.badge,
+ol.dribbbles li.group h2 span.badge-sale,
+ol.dribbbles li.constrained-content h2 span.badge-sale,
+ol.dribbbles li.constrained-content-alt h2 span.badge-sale,
+ol.dribbbles li.constrained-content-super h2 span.badge-sale,
+ol.dribbbles li.player-list-with-filters h2 span.badge-sale {
+    margin-left: 1px;
+    font-size: 10px;
+    line-height: 16px;
+    opacity: 0;
+    -webkit-transition: opacity 0.2s ease;
+    -moz-transition: opacity 0.2s ease;
+    -o-transition: opacity 0.2s ease;
+    transition: opacity 0.2s ease
+}
+ol.dribbbles li.group:hover h2 span.badge,
+ol.dribbbles li.constrained-content:hover h2 span.badge,
+ol.dribbbles li.constrained-content-alt:hover h2 span.badge,
+ol.dribbbles li.constrained-content-super:hover h2 span.badge,
+ol.dribbbles li.player-list-with-filters:hover h2 span.badge,
+ol.dribbbles li.group:hover h2 span.badge-sale,
+ol.dribbbles li.constrained-content:hover h2 span.badge-sale,
+ol.dribbbles li.constrained-content-alt:hover h2 span.badge-sale,
+ol.dribbbles li.constrained-content-super:hover h2 span.badge-sale,
+ol.dribbbles li.player-list-with-filters:hover h2 span.badge-sale {
+    opacity: 1
+}
+ol.dribbbles li.group h2 span.attribution-team,
+ol.dribbbles li.constrained-content h2 span.attribution-team,
+ol.dribbbles li.constrained-content-alt h2 span.attribution-team,
+ol.dribbbles li.constrained-content-super h2 span.attribution-team,
+ol.dribbbles li.player-list-with-filters h2 span.attribution-team,
+ol.dribbbles li.group.team h2 span.attribution-user,
+ol.dribbbles li.team.constrained-content h2 span.attribution-user,
+ol.dribbbles li.team.constrained-content-alt h2 span.attribution-user,
+ol.dribbbles li.team.constrained-content-super h2 span.attribution-user,
+ol.dribbbles li.team.player-list-with-filters h2 span.attribution-user {
+    display: none
+}
+ol.dribbbles li.group div.dribbble,
+ol.dribbbles li.constrained-content div.dribbble,
+ol.dribbbles li.constrained-content-alt div.dribbble,
+ol.dribbbles li.constrained-content-super div.dribbble,
+ol.dribbbles li.player-list-with-filters div.dribbble {
+    position: relative;
+    clear: left;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07)
+}
+ol.dribbbles li.group div.dribbble div.dribbble-shot,
+ol.dribbbles li.constrained-content div.dribbble div.dribbble-shot,
+ol.dribbbles li.constrained-content-alt div.dribbble div.dribbble-shot,
+ol.dribbbles li.constrained-content-super div.dribbble div.dribbble-shot,
+ol.dribbbles li.player-list-with-filters div.dribbble div.dribbble-shot {
+    padding: 10px
+}
+ol.dribbbles li.group div.dribbble a.dribbble-over,
+ol.dribbbles li.constrained-content div.dribbble a.dribbble-over,
+ol.dribbbles li.constrained-content-alt div.dribbble a.dribbble-over,
+ol.dribbbles li.constrained-content-super div.dribbble a.dribbble-over,
+ol.dribbbles li.player-list-with-filters div.dribbble a.dribbble-over {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    top: 0;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    font-size: 13px;
+    line-height: 2;
+    text-decoration: none;
+    color: #888;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.96);
+    overflow: hidden;
+    box-sizing: border-box
+}
+.grid-without-meta ol.dribbbles li.group div.dribbble a.dribbble-over,
+.grid-without-meta ol.dribbbles li.constrained-content div.dribbble a.dribbble-over,
+.grid-without-meta ol.dribbbles li.constrained-content-alt div.dribbble a.dribbble-over,
+.grid-without-meta ol.dribbbles li.constrained-content-super div.dribbble a.dribbble-over,
+.grid-without-meta ol.dribbbles li.player-list-with-filters div.dribbble a.dribbble-over {
+    bottom: 10px
+}
+ol.dribbbles li.group div.dribbble a.dribbble-over strong,
+ol.dribbbles li.constrained-content div.dribbble a.dribbble-over strong,
+ol.dribbbles li.constrained-content-alt div.dribbble a.dribbble-over strong,
+ol.dribbbles li.constrained-content-super div.dribbble a.dribbble-over strong,
+ol.dribbbles li.player-list-with-filters div.dribbble a.dribbble-over strong {
+    display: block;
+    margin: 0 25px 4px 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #444;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+.grid-large ol.dribbbles li.group div.dribbble a.dribbble-over strong,
+.grid-large ol.dribbbles li.constrained-content div.dribbble a.dribbble-over strong,
+.grid-large ol.dribbbles li.constrained-content-alt div.dribbble a.dribbble-over strong,
+.grid-large ol.dribbbles li.constrained-content-super div.dribbble a.dribbble-over strong,
+.grid-large ol.dribbbles li.player-list-with-filters div.dribbble a.dribbble-over strong {
+    font-size: 15px;
+    margin-bottom: 10px
+}
+ol.dribbbles li.group div.dribbble a.dribbble-over strong span.sep,
+ol.dribbbles li.constrained-content div.dribbble a.dribbble-over strong span.sep,
+ol.dribbbles li.constrained-content-alt div.dribbble a.dribbble-over strong span.sep,
+ol.dribbbles li.constrained-content-super div.dribbble a.dribbble-over strong span.sep,
+ol.dribbbles li.player-list-with-filters div.dribbble a.dribbble-over strong span.sep {
+    margin: 0 2px;
+    color: #999
+}
+ol.dribbbles li.group div.dribbble a.dribbble-over em,
+ol.dribbbles li.constrained-content div.dribbble a.dribbble-over em,
+ol.dribbbles li.constrained-content-alt div.dribbble a.dribbble-over em,
+ol.dribbbles li.constrained-content-super div.dribbble a.dribbble-over em,
+ol.dribbbles li.player-list-with-filters div.dribbble a.dribbble-over em {
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    margin: 0 0 3px 0;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    color: #777
+}
+ol.dribbbles li.group div.dribbble a.dribbble-over span.comment,
+ol.dribbbles li.constrained-content div.dribbble a.dribbble-over span.comment,
+ol.dribbbles li.constrained-content-alt div.dribbble a.dribbble-over span.comment,
+ol.dribbbles li.constrained-content-super div.dribbble a.dribbble-over span.comment,
+ol.dribbbles li.player-list-with-filters div.dribbble a.dribbble-over span.comment,
+ol.dribbbles li.group div.dribbble a.dribbble-over span.bio,
+ol.dribbbles li.constrained-content div.dribbble a.dribbble-over span.bio,
+ol.dribbbles li.constrained-content-alt div.dribbble a.dribbble-over span.bio,
+ol.dribbbles li.constrained-content-super div.dribbble a.dribbble-over span.bio,
+ol.dribbbles li.player-list-with-filters div.dribbble a.dribbble-over span.bio {
+    display: block;
+    margin: 0 0 10px 0;
+    font-size: 11px;
+    line-height: 1.4;
+    color: #777;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+.grid-large ol.dribbbles li.group div.dribbble a.dribbble-over span.comment,
+.grid-large ol.dribbbles li.constrained-content div.dribbble a.dribbble-over span.comment,
+.grid-large ol.dribbbles li.constrained-content-alt div.dribbble a.dribbble-over span.comment,
+.grid-large ol.dribbbles li.constrained-content-super div.dribbble a.dribbble-over span.comment,
+.grid-large ol.dribbbles li.player-list-with-filters div.dribbble a.dribbble-over span.comment,
+.grid-large ol.dribbbles li.group div.dribbble a.dribbble-over span.bio,
+.grid-large ol.dribbbles li.constrained-content div.dribbble a.dribbble-over span.bio,
+.grid-large ol.dribbbles li.constrained-content-alt div.dribbble a.dribbble-over span.bio,
+.grid-large ol.dribbbles li.constrained-content-super div.dribbble a.dribbble-over span.bio,
+.grid-large ol.dribbbles li.player-list-with-filters div.dribbble a.dribbble-over span.bio {
+    font-size: 13px
+}
+ol.dribbbles li.group div.dribbble div.extras,
+ol.dribbbles li.constrained-content div.dribbble div.extras,
+ol.dribbbles li.constrained-content-alt div.dribbble div.extras,
+ol.dribbbles li.constrained-content-super div.dribbble div.extras,
+ol.dribbbles li.player-list-with-filters div.dribbble div.extras {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    z-index: 2
+}
+ol.dribbbles li.group div.dribbble div.extras a,
+ol.dribbbles li.constrained-content div.dribbble div.extras a,
+ol.dribbbles li.constrained-content-alt div.dribbble div.extras a,
+ol.dribbbles li.constrained-content-super div.dribbble div.extras a,
+ol.dribbbles li.player-list-with-filters div.dribbble div.extras a,
+ol.dribbbles li.group div.dribbble div.extras .attachments-mark,
+ol.dribbbles li.constrained-content div.dribbble div.extras .attachments-mark,
+ol.dribbbles li.constrained-content-alt div.dribbble div.extras .attachments-mark,
+ol.dribbbles li.constrained-content-super div.dribbble div.extras .attachments-mark,
+ol.dribbbles li.player-list-with-filters div.dribbble div.extras .attachments-mark {
+    display: none
+}
+ol.dribbbles li.group div.dribbble span.rebound-mark,
+ol.dribbbles li.constrained-content div.dribbble span.rebound-mark,
+ol.dribbbles li.constrained-content-alt div.dribbble span.rebound-mark,
+ol.dribbbles li.constrained-content-super div.dribbble span.rebound-mark,
+ol.dribbbles li.player-list-with-filters div.dribbble span.rebound-mark {
+    float: left;
+    margin: 0 5px 0 0
+}
+ol.dribbbles li.group div.dribbble span.has-rebounds,
+ol.dribbbles li.constrained-content div.dribbble span.has-rebounds,
+ol.dribbbles li.constrained-content-alt div.dribbble span.has-rebounds,
+ol.dribbbles li.constrained-content-super div.dribbble span.has-rebounds,
+ol.dribbbles li.player-list-with-filters div.dribbble span.has-rebounds {
+    float: left;
+    padding: 0 0 0 12px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #7bbb5e;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-image: url(/assets/icon-rebound-source-7a3b3f49ae1d71c076cfa9a2f22e3da3f979d6a149d26d9b1901e0a73681dc59.png)
+}
+@media (-webkit-min-device-pixel-ratio: 1.5),
+(min--moz-device-pixel-ratio: 1.5),
+(-o-min-device-pixel-ratio: 3 / 2),
+(min-device-pixel-ratio: 1.5),
+(min-resolution: 1.5dppx) {
+    ol.dribbbles li.group div.dribbble span.has-rebounds,
+    ol.dribbbles li.constrained-content div.dribbble span.has-rebounds,
+    ol.dribbbles li.constrained-content-alt div.dribbble span.has-rebounds,
+    ol.dribbbles li.constrained-content-super div.dribbble span.has-rebounds,
+    ol.dribbbles li.player-list-with-filters div.dribbble span.has-rebounds {
+        background-image: url(/assets/icon-rebound-source-2x-36e1165991d69743d0455897054f7dd783d45a3cc41153dfd274c7c2edc87cb4.png);
+        -webkit-background-size: 10px 16px;
+        -moz-background-size: 10px 16px;
+        background-size: 10px 16px
+    }
+}
+ol.dribbbles li.group div.dribbble span.attachments-mark,
+ol.dribbbles li.constrained-content div.dribbble span.attachments-mark,
+ol.dribbbles li.constrained-content-alt div.dribbble span.attachments-mark,
+ol.dribbbles li.constrained-content-super div.dribbble span.attachments-mark,
+ol.dribbbles li.player-list-with-filters div.dribbble span.attachments-mark {
+    float: left
+}
+ol.dribbbles li.group div.dribbble span.comment,
+ol.dribbbles li.constrained-content div.dribbble span.comment,
+ol.dribbbles li.constrained-content-alt div.dribbble span.comment,
+ol.dribbbles li.constrained-content-super div.dribbble span.comment,
+ol.dribbbles li.player-list-with-filters div.dribbble span.comment {
+    color: #777
+}
+ol.dribbbles li.group div.dribbble span.liked-by,
+ol.dribbbles li.constrained-content div.dribbble span.liked-by,
+ol.dribbbles li.constrained-content-alt div.dribbble span.liked-by,
+ol.dribbbles li.constrained-content-super div.dribbble span.liked-by,
+ol.dribbbles li.player-list-with-filters div.dribbble span.liked-by {
+    opacity: 0;
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    padding-left: 10px;
+    font-size: 12px;
+    color: #777;
+    -webkit-transition: opacity 0.2s ease;
+    -moz-transition: opacity 0.2s ease;
+    -o-transition: opacity 0.2s ease;
+    transition: opacity 0.2s ease;
+    z-index: 3
+}
+ol.dribbbles li.group div.dribbble span.liked-by a,
+ol.dribbbles li.constrained-content div.dribbble span.liked-by a,
+ol.dribbbles li.constrained-content-alt div.dribbble span.liked-by a,
+ol.dribbbles li.constrained-content-super div.dribbble span.liked-by a,
+ol.dribbbles li.player-list-with-filters div.dribbble span.liked-by a {
+    font-weight: bold
+}
+ol.dribbbles li.group div.dribbble span.liked-by a img,
+ol.dribbbles li.constrained-content div.dribbble span.liked-by a img,
+ol.dribbbles li.constrained-content-alt div.dribbble span.liked-by a img,
+ol.dribbbles li.constrained-content-super div.dribbble span.liked-by a img,
+ol.dribbbles li.player-list-with-filters div.dribbble span.liked-by a img {
+    position: relative;
+    top: -2px;
+    width: 16px;
+    margin: 0 2px 0 0;
+    vertical-align: middle;
+    border-radius: 50%
+}
+ol.dribbbles li.group div.dribbble-img,
+ol.dribbbles li.constrained-content div.dribbble-img,
+ol.dribbbles li.constrained-content-alt div.dribbble-img,
+ol.dribbbles li.constrained-content-super div.dribbble-img,
+ol.dribbbles li.player-list-with-filters div.dribbble-img {
+    max-width: 100%;
+    height: 0;
+    padding-bottom: 75%;
+    overflow: hidden
+}
+ol.dribbbles li.group div.dribbble-img:hover span.liked-by,
+ol.dribbbles li.constrained-content div.dribbble-img:hover span.liked-by,
+ol.dribbbles li.constrained-content-alt div.dribbble-img:hover span.liked-by,
+ol.dribbbles li.constrained-content-super div.dribbble-img:hover span.liked-by,
+ol.dribbbles li.player-list-with-filters div.dribbble-img:hover span.liked-by {
+    opacity: 1
+}
+ol.dribbbles li.group div.dribbble-img img,
+ol.dribbbles li.constrained-content div.dribbble-img img,
+ol.dribbbles li.constrained-content-alt div.dribbble-img img,
+ol.dribbbles li.constrained-content-super div.dribbble-img img,
+ol.dribbbles li.player-list-with-filters div.dribbble-img img {
+    max-width: 100%
+}
+ol.dribbbles li.team h2 span.attribution-team,
+body#profile ol.dribbbles li h2 span.attribution-user,
+body#user-profile ol.dribbbles li h2 span.attribution-user {
+    display: inline
+}
+body#profile ol.dribbbles li.team h2 span.attribution-team,
+body#user-profile ol.dribbbles li.team h2 span.attribution-team {
+    display: none
+}
+ol.dribbbles.scrollable,
+ol.portal-list-members.scrollable {
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: static;
+    max-width: none;
+    -ms-overflow-style: -ms-autohiding-scrollbar
+}
+ol.dribbbles.scrollable::-webkit-scrollbar,
+ol.portal-list-members.scrollable::-webkit-scrollbar {
+    display: none
+}
+ol.dribbbles.scrollable>li.group,
+ol.dribbbles.scrollable>li.constrained-content,
+ol.dribbbles.scrollable>li.constrained-content-alt,
+ol.dribbbles.scrollable>li.constrained-content-super,
+ol.dribbbles.scrollable>li.player-list-with-filters,
+ol.dribbbles.scrollable .rate-limited,
+ol.portal-list-members.scrollable>li.group,
+ol.portal-list-members.scrollable>li.constrained-content,
+ol.portal-list-members.scrollable>li.constrained-content-alt,
+ol.portal-list-members.scrollable>li.constrained-content-super,
+ol.portal-list-members.scrollable>li.player-list-with-filters,
+ol.portal-list-members.scrollable .rate-limited {
+    width: 220px;
+    float: none;
+    display: inline-block;
+    margin: 0 10px 0 0;
+    padding-bottom: 0;
+    vertical-align: top
+}
+ol.dribbbles.scrollable .rate-limited,
+ol.portal-list-members.scrollable .rate-limited {
+    width: 220px;
+    white-space: normal;
+    text-align: center
+}
+ol.dribbbles.scrollable .rate-limited a.load-next-page,
+ol.portal-list-members.scrollable .rate-limited a.load-next-page {
+    display: block;
+    color: #444;
+    font-weight: 500;
+    padding-top: 40px
+}
+ol.dribbbles.scrollable .rate-limited span,
+ol.portal-list-members.scrollable .rate-limited span {
+    font-size: 12px;
+    display: block;
+    padding: 8px 12px;
+    font-weight: normal;
+    color: #999;
+    line-height: 1.3
+}
+ol.dribbbles.scrollable .rate-limited span a,
+ol.portal-list-members.scrollable .rate-limited span a {
+    display: inline-block
+}
+ol.dribbbles.scrollable:after,
+ol.dribbbles.scrollable:before,
+ol.portal-list-members.scrollable:after,
+ol.portal-list-members.scrollable:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    width: 20px;
+    height: 100%;
+    z-index: 1
+}
+ol.dribbbles.scrollable:after,
+ol.portal-list-members.scrollable:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(244, 244, 244, 0), #f4f4f4);
+    visibility: visible
+}
+ol.dribbbles.scrollable.is-scrolled:before,
+ol.portal-list-members.scrollable.is-scrolled:before {
+    left: 0;
+    background: linear-gradient(to right, #f4f4f4, rgba(244, 244, 244, 0))
+}
+ol.dribbbles.scrollable div.processing,
+ol.portal-list-members.scrollable div.processing {
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 70px;
+    margin-right: 10px;
+    background-color: transparent;
+    width: 168px;
+    background-position: 94px 50%
+}
+.scrollable-content-container {
+    position: relative
+}
+.scrollable-content-container ol.dribbbles {
+    margin-top: 20px
+}
+body.grid-small .scrollable-content-container ol.dribbbles,
+body.grid-large .scrollable-content-container ol.dribbbles {
+    max-width: 100%
+}
+ol.dribbbles.scrollable .attribution,
+ol.dribbbles.scrollable .extras,
+ol.dribbbles.scrollable .tools {
+    display: none
+}
+ol.dribbbles.scrollable li div.dribbble a.dribbble-over {
+    bottom: 10px
+}
+ol.dribbbles-tease li:first-child {
+    margin-left: 0
+}
+ol.dribbbles-tease li:last-child {
+    margin-right: 0

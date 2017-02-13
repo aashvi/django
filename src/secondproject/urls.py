@@ -12,6 +12,7 @@ urlpatterns = patterns('',
     url(r'^signup/$', 'signups.views.signup', name='signup'),
     url(r'^thank-you/$', 'signups.views.thankyou', name='thankyou'),
     url(r'^about-us/$', 'signups.views.aboutus', name='aboutus'),
+    url(r'^cards/$', 'signups.views.cards', name='cards'),
     # url(r'^blog/', include('blog.urls')),
 
      url(r'^admin/', include(admin.site.urls)),
